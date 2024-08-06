@@ -1,0 +1,111 @@
+{
+    "columns": [
+      {
+        "id": 6235,
+        "name": "To Do",
+        "statusId": 0,
+        "issues": [
+          {
+            "id": 1468533,
+            "key": "JIRA-1673",
+            "summary": "Deploy to Production",
+            "assignee": "Jack Mar",
+            "assigneeAccountId": "557058:5ee302a7-4590-4bb8-ae87-b0bccf7d4fe4",
+            "statusId": 0,
+            "createdAt": 1717534613455,
+            "updatedAt": 1717534613455,
+            "storyPoints": 1.0
+          },
+          {
+            "id": 1469314,
+            "key": "JIRA-1914",
+            "summary": "Fix sql queries",
+            "assignee": "Peter Lopez",
+            "assigneeAccountId": "62601f8ff698310070a848e1",
+            "statusId": 0,
+            "createdAt": 1714706951000,
+            "updatedAt": 1714706951000
+          },
+          {
+            "id": 1469321,
+            "key": "JIRA-1925",
+            "summary": "Automate all the test cases configured in the test plan",
+            "assignee": "Sham Kumar",
+            "assigneeAccountId": "62d07d663d382dfc9c603257",
+            "statusId": 0,
+            "createdAt": 1714706953000,
+            "updatedAt": 1714706953000,
+            "storyPoints": 5.0
+          }
+        ]
+      },
+      {
+        "id": 6236,
+        "name": "In Progress",
+        "statusId": 1,
+        "issues": [
+          {
+            "id": 1469582,
+            "key": "JIRA-2001",
+            "summary": "New Hire Onboarding",
+            "assignee": "Lily Su",
+            "assigneeAccountId": "6360400a59c794184bcb7bb9",
+            "statusId": 1,
+            "createdAt": 1714706953000,
+            "updatedAt": 1715008276000,
+            "storyPoints": 5.0
+          },
+          {
+            "id": 1469568,
+            "key": "JIRA-1531",
+            "summary": "Bug: Cannot bulk edit if a platform is missing the build",
+            "assignee": "Peter Lopez",
+            "assigneeAccountId": "62601f8ff698310070a848e1",
+            "statusId": 1,
+            "createdAt": 1714706953000,
+            "updatedAt": 1714706950000,
+            "storyPoints": 2.0
+          }
+        ],
+        "createIssueMode": "NOT_ALLOWED"
+      },
+      {
+        "id": 6237,
+        "name": "In Review",
+        "statusId": 2,
+        "issues": [],
+        "createIssueMode": "NOT_ALLOWED"
+      },
+      {
+        "id": 6239,
+        "name": "Done",
+        "statusId": 3,
+        "issues": [
+          {
+            "id": 1469999,
+            "key": "JIRA-1707",
+            "summary": "Whitelisting new Public IP range",
+            "assignee": "Jack Mar",
+            "assigneeAccountId": "557058:5ee302a7-4590-4bb8-ae87-b0bccf7d4fe4",
+            "statusId": 3,
+            "createdAt": 1717601409300,
+            "updatedAt": 1717601409300,
+            "storyPoints": 2.0
+          },
+          {
+            "id": 1469437,
+            "key": "JIRA-1884",
+            "summary": "Migrate API to K8S",
+            "assignee": "Sham Kumar",
+            "assigneeAccountId": "62d07d663d382dfc9c603257",
+            "statusId": 3,
+            "createdAt": 1715980444000,
+            "updatedAt": 1715980444000,
+            "storyPoints": 5.0
+          }
+        ],
+        "createIssueMode": "NOT_ALLOWED"
+      }
+    ]
+  }
+  
