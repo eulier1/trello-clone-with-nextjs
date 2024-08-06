@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="grid grid-cols-4 gap-40">
+      <div className="grid md:grid-cols-4 gap-40 overflow-scrollt">
         { columns.map( (column, index) => (<Column column={column} key={index}/>) ) }
       </div>
       <div>
